@@ -1,10 +1,7 @@
 var container=document.createElement("div");
 container.setAttribute("class","container");
 var row=document.createElement("div");
-//<div class="row row-md-3"></div>
-//to add multiple class selector to the HTML element
-//we will be using classList
-//classList is a property to add multiple classes to a single HTML element
+
 row.classList.add("row","m-3");
 container.append(row);
 var res=fetch("https://restcountries.com/v2/all")
